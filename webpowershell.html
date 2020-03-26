@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+<link href="webpowershell.css" rel="stylesheet">
+</head>
+<body>
+<div id="sidenav" >
+    <ul class="sidelisthead">
+        <li><span>MENU</span></li></ul>
+<ul class="sidelist">
+
+    <li><a href="webpowershell.html">HOME</a></li>
+    <li><a href="downloads.html">DOWNLOADS</a></li>
+    <li><a href="login.html">LOGIN</a></li>
+    </ul>    
+</div>
+<div id="btn" onclick="operate ()">
+    <span></span>
+        <span></span>
+    <span></span>
+
+    </div>
+    <div class="header"><span>COVID-19</span></div>
+<div class="main">
+    <div class="mainarea"><em>Coronavirus disease (COVID-19)</em> is an infectious disease caused by a new virus.
+The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing. You can protect yourself by washing your hands frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell.<br>
+        <img src="map.png" >
+        <p>spread of corona worldwide</p>
+    
+    
+    
+    </div> 
+    <pre class="sidearea"><span>Coronavirus Cases:</span>
+<span>4,34,511</span>
+<span>
+Deaths:</span>
+<span>19,601</span>
+<span>Recovered:</span>
+<span>111,620</span> </pre>
+    
+    </div>
+<div class="horinav">
+<ul>
+    <li>OVERVEIW</li>
+    <li>SYMPTOMS</li>
+    <li>TREATMENT</li>
+    <li>PREVENTION</li>
+    
+    
+    </ul>    
+    
+    
+</div>
+    
+
+
+<script type="text/javascript">
+     var a = 1;
+function operate (){
+    
+    if(a%2==0){
+        close ();
+    }
+    else {
+        open ();
+    }
+}
+function open (){
+    document.getElementById("sidenav").style.width="250px";
+    document.getElementById("btn").style.left="255px";
+    document.getElementById("sidenav").style.border="4px double white";
+    a++
+}
+function close(){
+    document.getElementById("sidenav").style.width="0px";
+    document.getElementById("btn").style.left="5px";
+    document.getElementById("sidenav").style.border="none";
+    a++
+}
+   
+
+    
+    
+    
+</script>
+</body>
+
+    
+    
+      
+
+</html>
